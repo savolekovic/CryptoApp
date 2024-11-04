@@ -1,4 +1,4 @@
-package com.vosaa.cryptoapp.domain
+package com.vosaa.cryptoapp.crypto.domain
 
 data class Coin(
     val id: String,
