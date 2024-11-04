@@ -1,4 +1,4 @@
-package com.vosaa.cryptoapp.util
+package com.vosaa.cryptoapp.core.domain.util
 
 typealias DomainError = Error
 
