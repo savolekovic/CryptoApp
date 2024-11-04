@@ -1,4 +1,4 @@
-package com.vosaa.cryptoapp.presentation.coin_list
+package com.vosaa.cryptoapp.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
