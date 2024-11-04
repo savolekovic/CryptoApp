@@ -1,9 +1,9 @@
-package com.vosaa.cryptoapp.presentation.models
+package com.vosaa.cryptoapp.crypto.presentation.models
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
-import com.vosaa.cryptoapp.domain.Coin
-import com.vosaa.cryptoapp.util.getDrawableIdForCoin
+import com.vosaa.cryptoapp.crypto.domain.Coin
+import com.vosaa.cryptoapp.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(
