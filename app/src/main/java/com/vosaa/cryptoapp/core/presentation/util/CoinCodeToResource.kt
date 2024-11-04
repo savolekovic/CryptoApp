@@ -1,4 +1,4 @@
-package com.vosaa.cryptoapp.util
+package com.vosaa.cryptoapp.core.presentation.util
 
 import com.vosaa.cryptoapp.R
 
