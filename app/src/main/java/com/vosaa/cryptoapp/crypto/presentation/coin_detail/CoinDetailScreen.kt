@@ -101,7 +101,7 @@ fun CoinDetailScreen(
                     (coin.priceUsd.value * (coin.changePercent24Hr.value / 100))
                         .toDisplayableNumber()
                 val isPositive = coin.changePercent24Hr.value > 0.0
-                val contentColor =
+                val contentColorInfo =
                     if (isPositive)
                         if (isSystemInDarkTheme())
                             Color.Green
@@ -116,7 +116,7 @@ fun CoinDetailScreen(
                         ImageVector.vectorResource(R.drawable.trending)
                     else
                         ImageVector.vectorResource(R.drawable.trending_down),
-                    contentColor = contentColor
+                    contentColor = contentColorInfo
                 )
             }
         }
