@@ -2,8 +2,9 @@ package com.vosaa.cryptoapp.crypto.presentation.models
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
-import com.vosaa.cryptoapp.crypto.domain.Coin
 import com.vosaa.cryptoapp.core.presentation.util.getDrawableIdForCoin
+import com.vosaa.cryptoapp.crypto.domain.Coin
+import com.vosaa.cryptoapp.crypto.presentation.coin_detail.DataPoint
 import java.util.Locale
 
 data class CoinUi(
@@ -14,8 +15,8 @@ data class CoinUi(
     val marketCapUsd: DisplayableNumber,
     val priceUsd: DisplayableNumber,
     val changePercent24Hr: DisplayableNumber,
-    @DrawableRes
-    val iconRes: Int
+    @DrawableRes val iconRes: Int,
+    val coinPriceHistory: List<DataPoint> = emptyList()
 )
 
 data class DisplayableNumber(
